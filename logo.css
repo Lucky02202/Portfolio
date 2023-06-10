@@ -1,0 +1,33 @@
+.lnp{
+    position: relative;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.l1,.l2,.l3{
+    position: absolute;
+    color: rgb(255, 253, 253);
+}
+
+.l1{
+    margin-top: 9.5px;
+    margin-left:20px ;
+    z-index: 2;
+}
+
+.l2{
+    top: 31.5px;
+    left: 33.5px;
+    z-index: 1;
+}
+.l3{
+    top: 54px;
+    left: 52px;
+    z-index: 0;
+}
+.l1:hover,.l2:hover,.l3:hover{
+    transform: scale(1.2);
+    color: black;
+    z-index: 3;
+}

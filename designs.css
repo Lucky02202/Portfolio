@@ -1,0 +1,48 @@
+.design-circle{
+    height: 310px;
+    width: 104px;
+    position: absolute;
+    top: 250px;
+    right: 120px;
+    border: 2px solid red;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+}
+
+.c1{
+    
+}
+.c2{
+    top: 102px;
+}
+.c3{
+    top: 51px;
+    right: 51px;
+}
+.c4{
+    top: 51px;
+    left: 51px;
+}
+
+.dc2{
+    transform: rotate(45deg);
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes badachota {
+    50%{
+        transform: scale(0.9);
+    }
+}
