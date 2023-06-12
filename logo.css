@@ -1,5 +1,7 @@
 .lnp{
-    position: relative;
+    position: absolute;
+    height: 100px;
+    width: 100px;
 }
 .logo{
     font-size: 2.5rem;
@@ -28,6 +30,6 @@
 }
 .l1:hover,.l2:hover,.l3:hover{
     transform: scale(1.2);
-    color: black;
+    color: rgb(208, 255, 0);
     z-index: 3;
 }

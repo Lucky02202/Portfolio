@@ -1,37 +1,44 @@
-.design-circle{
-    height: 310px;
-    width: 104px;
+/* -------------------------------------------CIRCULAR DESIGN ---------------------------------------- */
+.circle-design,.cd1,.cd2{
+    height: 204px;
+    width: 204px;
     position: absolute;
+}
+.circle-design{
     top: 250px;
     right: 120px;
-    border: 2px solid red;
+    animation: rotate 3s linear infinite;
 }
-
+.cd1{
+    top: -1px;
+    left: -2px;
+}
+.cd2{
+    top: -1px;
+    left: -2px;
+    transform: rotate(45deg);
+}
 .circle{
-    height: 100px;
-    width: 100px;
+    width: 98px;
+    height: 98px;
+    border: 2px solid white ;
     border-radius: 50%;
-    border: 2px solid rgb(255, 255, 255);
     position: absolute;
+    animation: badachota 3s linear infinite;
 }
-
 .c1{
-    
+    left: 50px;
 }
 .c2{
-    top: 102px;
+    top: 50px;
 }
 .c3{
-    top: 51px;
-    right: 51px;
+    top: 50px;
+    right: 2px;
 }
 .c4{
-    top: 51px;
-    left: 51px;
-}
-
-.dc2{
-    transform: rotate(45deg);
+    bottom: 2px;
+    left: 50px;
 }
 @keyframes rotate {
     from{
@@ -43,6 +50,7 @@
 }
 @keyframes badachota {
     50%{
-        transform: scale(0.9);
+        transform: scale(1.2);
     }
 }
+/* --------------------------------------------- CIRCULAR DESIGN END ------------------------------------------------ */

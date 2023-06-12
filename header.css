@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+    height: 65px;
+    color: white;
+    position: relative;
+    left: 525px;
+    top: 5px;
+}
+svg{
+    height: 40px;
+    width: 40px;
+    fill: white;
+}
+
+svg:hover{
+    transform: scale(1.2);
+}
+
+.linkedin:hover path{
+    fill: rgb(110,165,255);
+    background-color: black;
+    border-radius: 5px;
+}
+.insta:hover path{
+    fill: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    border-radius: 5px;
+}
+
