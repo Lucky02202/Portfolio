@@ -30,6 +30,6 @@
 }
 .l1:hover,.l2:hover,.l3:hover{
     transform: scale(1.2);
-    color: rgb(208, 255, 0);
+    color: rgb(67,170,155);
     z-index: 3;
 }
