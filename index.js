@@ -11,7 +11,7 @@ theam.addEventListener("click",()=>{
     }
     else{
         document.body.style.backgroundImage = ""
-        document.body.style.backgroundColor = "rgb(10,25,47)";
+        document.body.style.backgroundColor = "rgb(10,25,48)";
         count++;
         theam.style.transform = "scale(1.5)"
     }   
